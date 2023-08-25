@@ -2,6 +2,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .header, .footer {
     background-color: #1F2937;
@@ -10,24 +11,44 @@ body {
     align-items: center;
 }
 
-.linkone {
-    ;
+.header {
+    justify-content: space-between;
+    padding: 12px 72px;
 }
 
-li {
-    list-style-type: none;
-    display: flex;
-    padding: 16px;
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
+
 
 ul {
+    display: flex;
+    list-style-type: none;
     color: white;
     padding: 0;
     margin: 0;
+    gap: 32px;
 }
 
 .hero {
+    display: flex;
+    padding: 12px 72px;
     height: 360px;
     background-color: #1F2937;
     color: white;
+}
+
+.promone {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.promotwo {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    background-color: #31d2b1;
 }
