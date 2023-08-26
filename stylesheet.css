@@ -92,9 +92,10 @@ button {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+    width: 850px;
 }
 
-.callaction {
+.action {
     height: 100px;
     display: flex;
     align-items: center;
