@@ -15,7 +15,7 @@ body {
 
 .header {
     justify-content: space-between;
-    padding: 12px 72px;
+    padding: 12px 144px;
 }
 
 .logo {
@@ -35,7 +35,7 @@ ul {
 
 .hero {
     display: flex;
-    padding: 12px 72px;
+    padding: 12px 144px;
     height: 360px;
     background-color: #1F2937;
     color: white;
@@ -64,6 +64,19 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.callaction {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 144px;
+    background-color: #31d2b1;
+    padding: 36px 72px;
+}
+
+.buttontwo {
+    margin-left: auto;
 }
 
 .footer {
