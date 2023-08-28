@@ -1,2 +1,5 @@
 <a href="https://www.freepik.com/free-photo/portrait-satisfied-excited-afro-american-man_6515779.htm#query=people%20and%20money&position=47&from_view=search&track=ais">Image by drobotdean</a> on Freepik
 <a href="https://www.freepik.com/free-photo/person-using-laptop_11428130.htm#query=register&position=2&from_view=search&track=sph">Image by rawpixel.com</a> on Freepik
+<a href="https://www.freepik.com/free-photo/young-fashionable-guy-sitting-cafe-with-smartphone_10113482.htm#query=connect%20to%20bank&position=0&from_view=search&track=ais">Image by wayhomestudio</a> on Freepik
+<a href="https://www.freepik.com/free-photo/pointing-black-background-transparent-falling-hourglass_1077964.htm#query=money%20growth&from_query=moneygrowth&position=5&from_view=search&track=sph">Image by creativeart</a> on Freepik
+<a href="https://www.freepik.com/free-photo/portrait-caucasian-unset-despair-man-watching-financial-economical-graphs-during-coronavirus-quarantine-problems_8266078.htm?query=calculate%20returns#from_view=detail_alsolike#position=2&query=calculate%20returns">Image by master1305</a> on Freepik
