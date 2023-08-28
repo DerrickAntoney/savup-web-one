@@ -41,13 +41,19 @@ ul {
     color: white;
 }
 
+.top-message {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
 .saving {
     height: 300px;
     width: auto;
 }
 
 .promone {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: bolder;
     color: #F9FAF8;
 }
@@ -83,6 +89,7 @@ button {
 .imagesteps {
     display: flex;
     gap: 32px;
+    padding-bottom: 72px;
 }
 
 .imagesteps img {
@@ -126,7 +133,7 @@ button {
 }
 
 .quote {
-    font-size: 36px;
+    font-size: 28px;
     font-style: italic;
     font-weight: 100;
     width: 850px;
