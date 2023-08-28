@@ -41,6 +41,11 @@ ul {
     color: white;
 }
 
+.saving {
+    height: 300px;
+    width: auto;
+}
+
 .promone {
     font-size: 48px;
     font-weight: bolder;
