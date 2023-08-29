@@ -140,6 +140,16 @@ button {
     font-style: italic;
     font-weight: 100;
     width: 850px;
+    color: rgb(146, 143, 143);
+}
+
+.message-four, .message-five {
+    color: white;
+}
+
+.message-four {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .action {
@@ -154,6 +164,9 @@ button {
 
 .light {
     margin-left: auto;
+    background-color: #31d2b1;
+    border: 1px solid white;
+    color: white;
 }
 
 .footer {
