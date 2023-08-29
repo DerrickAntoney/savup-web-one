@@ -52,17 +52,17 @@ ul {
     width: auto;
 }
 
-.promone {
+.message-one {
     font-size: 42px;
     font-weight: bolder;
     color: #F9FAF8;
 }
-.promotwo {
+.message-two {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.promothree {
+.message-three {
     font-size: 28px;
     font-weight: bold;
     color: #1F2937;
@@ -72,9 +72,10 @@ ul {
 button {
     border-radius: 8px;
     padding: 8px 32px;
+    cursor: pointer;
 }
 
-.button {
+.default {
     background-color: #31d2b1;
     border: 1px solid #31d2b1;
     color: white; 
@@ -86,13 +87,13 @@ button {
     align-items: center;
 }
 
-.imagesteps {
+.image-steps {
     display: flex;
     gap: 32px;
     padding-bottom: 72px;
 }
 
-.imagesteps img {
+.image-steps img {
     border-radius: 20px;
     height: 144px;
     width: 144px;
@@ -149,7 +150,7 @@ button {
     border-radius: 10px;
 }
 
-.buttontwo {
+.light {
     margin-left: auto;
 }
 
