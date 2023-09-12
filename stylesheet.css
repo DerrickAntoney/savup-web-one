@@ -1,11 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    margin: 0;
+    margin: 0 ;
     display: flex;
     flex-direction: column;
-    font-family: Lato, Roboto;
+    font-family: "Lato","Roboto" ;
 }
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.header-nav-toggle {
+    padding: 8px;
+    border-radius: 2px;
+    background: #22282f;
+}
+
+@media (max-width: 770px) {
+    .message-one {
+        font-size: 21px;
+    }
+    .message-two {
+        font-size: 9px;
+    }
+    .message-three {
+        font-size: 14px;
+        text-align: center;
+    }
+    .quote {
+        font-size: 14px;
+        text-align: center;
+    }
+    .message-four {
+        font-size: 12px;
+    }
+    .footer {
+        font-size: 12px;
+    }
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1.5em 3em;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #31d2b1;
+    color: white;
+  }
+
+.topnav .icon {
+    display: none;
+  }
+
+@media screen and (max-width: 770px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+
 .header, .footer {
     background-color: #1F2937;  
     display: flex;
@@ -14,11 +101,12 @@ body {
 
 .header {
     justify-content: space-between;
-    padding: 12px 144px;
+    padding: 12px 0px;
     height: auto;
 }
 
 .logo {
+    max-width: 10px;
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -35,10 +123,11 @@ ul {
 
 .hero {
     display: flex;
-    padding: 12px 144px;
+    padding: 12px 0px;
     height: 360px;
-    background-color: #1F2937;
+    /*background-color: #1F2937;*/
     color: white;
+    background-image: url("assets/mansaving.jpg");
 }
 
 .top-message {
@@ -46,11 +135,7 @@ ul {
     flex-direction: column;
     gap: 28px;
     justify-content: center;
-}
-
-.saving {
-    height: 300px;
-    width: auto;
+    
 }
 
 .message-one {
@@ -91,14 +176,16 @@ button {
 
 .image-steps {
     display: flex;
+    flex-wrap: wrap;
     gap: 32px;
     padding-bottom: 72px;
+    justify-content: center;
 }
 
 .image-steps img {
     border-radius: 20px;
-    height: 144px;
-    width: 144px;
+    height: 96px;
+    width: 96px;
     object-fit: cover;
 }
 
@@ -139,7 +226,6 @@ button {
     font-size: 28px;
     font-style: italic;
     font-weight: 100;
-    width: 850px;
     color: rgb(146, 143, 143);
 }
 
@@ -156,10 +242,11 @@ button {
     height: 100px;
     display: flex;
     align-items: center;
-    margin: 144px;
+    margin: 60px auto;
     background-color: #31d2b1;
     padding: 36px 72px;
     border-radius: 10px;
+    max-width: 680px;
 }
 
 .light {
@@ -177,4 +264,5 @@ button {
     height: 100px;
     color: white;
     gap: 8px;
+    text-align: center;
 }

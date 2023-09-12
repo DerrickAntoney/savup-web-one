@@ -8,27 +8,29 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div class="header">
-        <div class="logo">Logo</div>
-        <ul>
-            <li><a class="linkone">Home</a></li>
-            <li><a class="linktwo">Sign Up</a></li>
-            <li><a class="linkthree">Team</a></li>
-            <li><a class="lnkfour">Data Protection Policy</a></li>
-            <li><a class="linkfive">Support</a></li> 
-        </ul>
+    <div class="header" >
+        <div class="topnav container" id="myTopnav">
+            <a class="linkone active">Logo</a>
+            <a class="linktwo">Home</a>
+            <a class="linkthree">Sign Up</a>
+            <a class="linkfour">Team</a>
+            <a class="lnkfive">Data Protection Policy</a>
+            <a class="linksix">Support</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
     </div>
     <div class="hero">
-        <div class="top-message">
+        <div class="top-message container">
             <div class="message-one">Making Bankers out of Savers</div>
-            <div class="message-two">Mobcash is creating a place where you can unite with others to create an army of successful savers</div>
-            <Button class="default">Sign up</Button>
+            <div class="message-two">Savup is creating a place where you can unite with others to create an army of successful savers</div>
+            <Button class="default">Download App</Button>
         </div>
-        <div><img class="saving" src="assets/mansaving.jpg" alt="Man saving"></div>
     </div>
     <div class="steps">
-        <div class="message-three">Open an account, set your savings goal, and start investing with just a few clicks</div>
-        <div class="image-steps">
+        <div class="message-three container">Open an account, set your savings goal, and start investing with just a few clicks</div>
+        <div class="image-steps container">
             <div class="register"><img src="assets/register.jpg" alt="Register">1. Register</div>
             <div class="bank"><img src="assets/connectbank.jpg" alt="Connect bank">2. Connect to bank</div>
             <div class="goal"><img src="assets/savinggoal.jpg" alt="Set saving goal">3. Set saving goal</div>
@@ -36,14 +38,14 @@
         </div>
     </div>
     <div class="quotes">
-        <div class="quote">
+        <div class="quote container">
             It's not how much you make, but how much you keep, how hard it works for and how many generations you keep it for
         </div>
         <div class="author"><div>
             - Robert Kiyosaki
         </div></div>
     </div>
-    <div class="action">
+    <div class="action container">
         <div class="messages">
         <div class="message-four">We are expanding our better group!</div>
         <div class="message-five">Be at the top of the list by signing up now!</div>
@@ -53,7 +55,17 @@
     <div class="footer">
         <div class="rights">All Rights Reserved | All Wrongs Reversed</div>
         <div class="conditions"><a>Terms & Conditions | Privacy Policy | Disclaimer</a></div>
-        <div>Copyright &copy; 2023 Mobcash Inc, its affiliates, assigns and licensors</div>
+        <div>Copyright &copy; 2023 Savup Inc, its affiliates, assigns and licensors</div>
     </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
 </body>
 </html>
